@@ -30,6 +30,8 @@ const App = () => {
     setPassword(event.target.value);
   };
 
+
+  // Fetch login and data list API
   const fetchLoginData = async () => {
     try {
       const requestOptions = {
